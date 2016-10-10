@@ -15,6 +15,8 @@
 		A5027D3C1CC7591400C54EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */; };
 		A5027D471CC7591400C54EDE /* CCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5027D461CC7591400C54EDE /* CCAnimationTests.m */; };
 		A5027D521CC7591400C54EDE /* CCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5027D511CC7591400C54EDE /* CCAnimationUITests.m */; };
+		A5923BD21DAB8FEF0019AC45 /* 咻一咻效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5923BD01DAB8FEF0019AC45 /* 咻一咻效果图.gif */; };
+		A5923BD31DAB8FEF0019AC45 /* 摇奖效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */; };
 		BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5DF1DAA83B3007BC7C3 /* RootViewController.m */; };
 		BDA3D5E71DAA83BF007BC7C3 /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5E31DAA83BF007BC7C3 /* MainViewCell.m */; };
 		BDA3D5E81DAA83BF007BC7C3 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA3D5E41DAA83BF007BC7C3 /* MainViewCell.xib */; };
@@ -60,6 +62,8 @@
 		A5027D4D1CC7591400C54EDE /* CCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5027D511CC7591400C54EDE /* CCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAnimationUITests.m; sourceTree = "<group>"; };
 		A5027D531CC7591400C54EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5923BD01DAB8FEF0019AC45 /* 咻一咻效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "咻一咻效果图.gif"; sourceTree = "<group>"; };
+		A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "摇奖效果图.gif"; sourceTree = "<group>"; };
 		A831102A481CCE79924D27DF /* libPods-CCAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BE65A6394791B0003811C9 /* Pods-CCAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCAnimationTests/Pods-CCAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 		BD5116891DA35B14008E73DA /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
@@ -171,6 +175,7 @@
 				A5027D381CC7591400C54EDE /* Assets.xcassets */,
 				A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */,
 				A5027D3D1CC7591400C54EDE /* Info.plist */,
+				A5923BCF1DAB8FEF0019AC45 /* Resource */,
 				A5027D2C1CC7591400C54EDE /* Supporting Files */,
 				BD5116891DA35B14008E73DA /* config.h */,
 			);
@@ -201,6 +206,15 @@
 				A5027D531CC7591400C54EDE /* Info.plist */,
 			);
 			path = CCAnimationUITests;
+			sourceTree = "<group>";
+		};
+		A5923BCF1DAB8FEF0019AC45 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A5923BD01DAB8FEF0019AC45 /* 咻一咻效果图.gif */,
+				A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		BDA3D5DD1DAA83B3007BC7C3 /* common */ = {
@@ -346,6 +360,8 @@
 				TargetAttributes = {
 					A5027D281CC7591400C54EDE = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = PU39U8DFF5;
+						ProvisioningStyle = Manual;
 					};
 					A5027D411CC7591400C54EDE = {
 						CreatedOnToolsVersion = 7.3;
@@ -383,6 +399,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDA3D6061DAA8A34007BC7C3 /* TouchStarVC.xib in Resources */,
+				A5923BD21DAB8FEF0019AC45 /* 咻一咻效果图.gif in Resources */,
+				A5923BD31DAB8FEF0019AC45 /* 摇奖效果图.gif in Resources */,
 				A5027D3C1CC7591400C54EDE /* LaunchScreen.storyboard in Resources */,
 				BDA3D5E81DAA83BF007BC7C3 /* MainViewCell.xib in Resources */,
 				A5027D391CC7591400C54EDE /* Assets.xcassets in Resources */,
@@ -677,11 +695,15 @@
 			baseConfigurationReference = 76E513E0C9CE7A17F239257F /* Pods-CCAnimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Chao (U9YF328994)";
+				DEVELOPMENT_TEAM = PU39U8DFF5;
 				INFOPLIST_FILE = CCAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebank.CCAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "71b7b5b1-7f2b-4bfe-9c2f-6a2e16b65fb8";
+				PROVISIONING_PROFILE_SPECIFIER = AlexSongDev;
 			};
 			name = Debug;
 		};
@@ -690,11 +712,13 @@
 			baseConfigurationReference = 2C5A853CBEB747BD473C9514 /* Pods-CCAnimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CCAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbcb.mobilebank.CCAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = AlexSongDev;
 			};
 			name = Release;
 		};
