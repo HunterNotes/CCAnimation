@@ -21,8 +21,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.navTitle = @"咻一咻";
 }
 
 - (void)startAnimation {

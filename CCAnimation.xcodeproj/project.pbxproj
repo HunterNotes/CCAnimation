@@ -15,19 +15,28 @@
 		A5027D3C1CC7591400C54EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */; };
 		A5027D471CC7591400C54EDE /* CCAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5027D461CC7591400C54EDE /* CCAnimationTests.m */; };
 		A5027D521CC7591400C54EDE /* CCAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5027D511CC7591400C54EDE /* CCAnimationUITests.m */; };
+		A511E2B21DACE33500C6F020 /* FTT_Roundview.m in Sources */ = {isa = PBXBuildFile; fileRef = A511E2AF1DACE33500C6F020 /* FTT_Roundview.m */; };
+		A511E2B31DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A511E2B11DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m */; };
+		A511E2B91DACE40300C6F020 /* RotateAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A511E2B81DACE40200C6F020 /* RotateAnimationVC.m */; };
+		A511E2BC1DACE46900C6F020 /* BtnModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A511E2BB1DACE46900C6F020 /* BtnModel.m */; };
+		A511E2BF1DACE61800C6F020 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A511E2BE1DACE61800C6F020 /* BaseViewController.m */; };
+		A511E2C11DACE79A00C6F020 /* BtnList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A511E2C01DACE79A00C6F020 /* BtnList.plist */; };
 		A58900B31DAB9BB000409565 /* 点赞效果图.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A58900B21DAB9BB000409565 /* 点赞效果图.PNG */; };
 		A5923BD21DAB8FEF0019AC45 /* 咻一咻效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5923BD01DAB8FEF0019AC45 /* 咻一咻效果图.gif */; };
 		A5923BD31DAB8FEF0019AC45 /* 摇奖效果图.gif in Resources */ = {isa = PBXBuildFile; fileRef = A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */; };
+		A59A72491DAC88320080FBD6 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72481DAC88320080FBD6 /* TabBarController.m */; };
+		A59A724C1DAC8A850080FBD6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A724B1DAC8A850080FBD6 /* FirstViewController.m */; };
+		A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A724E1DAC8A910080FBD6 /* SecondViewController.m */; };
+		A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72511DAC8AA40080FBD6 /* ThreeViewController.m */; };
+		A59A72551DAC8AAE0080FBD6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72541DAC8AAE0080FBD6 /* FourViewController.m */; };
+		A5E781711DACC34D0078C8F4 /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */; };
 		BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5DF1DAA83B3007BC7C3 /* RootViewController.m */; };
 		BDA3D5E71DAA83BF007BC7C3 /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5E31DAA83BF007BC7C3 /* MainViewCell.m */; };
 		BDA3D5E81DAA83BF007BC7C3 /* MainViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA3D5E41DAA83BF007BC7C3 /* MainViewCell.xib */; };
 		BDA3D5E91DAA83BF007BC7C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5E61DAA83BF007BC7C3 /* MainViewController.m */; };
 		BDA3D5ED1DAA83CA007BC7C3 /* XYXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5EC1DAA83CA007BC7C3 /* XYXViewController.m */; };
 		BDA3D5F11DAA83D3007BC7C3 /* LotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5F01DAA83D3007BC7C3 /* LotteryViewController.m */; };
-		BDA3D5FB1DAA83DE007BC7C3 /* ZView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5F81DAA83DE007BC7C3 /* ZView.m */; };
 		BDA3D5FF1DAA8434007BC7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5FE1DAA8434007BC7C3 /* AppDelegate.m */; };
-		BDA3D6051DAA8A34007BC7C3 /* TouchStarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D6031DAA8A34007BC7C3 /* TouchStarVC.m */; };
-		BDA3D6061DAA8A34007BC7C3 /* TouchStarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDA3D6041DAA8A34007BC7C3 /* TouchStarVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +72,36 @@
 		A5027D4D1CC7591400C54EDE /* CCAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CCAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5027D511CC7591400C54EDE /* CCAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCAnimationUITests.m; sourceTree = "<group>"; };
 		A5027D531CC7591400C54EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A511E2AE1DACE33500C6F020 /* FTT_Roundview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTT_Roundview.h; sourceTree = "<group>"; };
+		A511E2AF1DACE33500C6F020 /* FTT_Roundview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTT_Roundview.m; sourceTree = "<group>"; };
+		A511E2B01DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTOneFingerRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		A511E2B11DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTOneFingerRotationGestureRecognizer.m; sourceTree = "<group>"; };
+		A511E2B71DACE40200C6F020 /* RotateAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotateAnimationVC.h; sourceTree = "<group>"; };
+		A511E2B81DACE40200C6F020 /* RotateAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotateAnimationVC.m; sourceTree = "<group>"; };
+		A511E2BA1DACE46900C6F020 /* BtnModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BtnModel.h; sourceTree = "<group>"; };
+		A511E2BB1DACE46900C6F020 /* BtnModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BtnModel.m; sourceTree = "<group>"; };
+		A511E2BD1DACE61800C6F020 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A511E2BE1DACE61800C6F020 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A511E2C01DACE79A00C6F020 /* BtnList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BtnList.plist; sourceTree = "<group>"; };
 		A58900B21DAB9BB000409565 /* 点赞效果图.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "点赞效果图.PNG"; sourceTree = "<group>"; };
 		A5923BD01DAB8FEF0019AC45 /* 咻一咻效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "咻一咻效果图.gif"; sourceTree = "<group>"; };
 		A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "摇奖效果图.gif"; sourceTree = "<group>"; };
+		A59A72471DAC88320080FBD6 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		A59A72481DAC88320080FBD6 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		A59A724A1DAC8A850080FBD6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A59A724B1DAC8A850080FBD6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A59A724D1DAC8A910080FBD6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A59A724E1DAC8A910080FBD6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A59A72501DAC8AA40080FBD6 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		A59A72511DAC8AA40080FBD6 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		A59A72531DAC8AAE0080FBD6 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		A59A72541DAC8AAE0080FBD6 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		A59A725D1DAC8D540080FBD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5E7816F1DACC34D0078C8F4 /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
+		A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
+		A5E781721DACC9A70078C8F4 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		A831102A481CCE79924D27DF /* libPods-CCAnimationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCAnimationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8BE65A6394791B0003811C9 /* Pods-CCAnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAnimationTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CCAnimationTests/Pods-CCAnimationTests.release.xcconfig"; sourceTree = "<group>"; };
-		BD5116891DA35B14008E73DA /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		BDA3D5DE1DAA83B3007BC7C3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		BDA3D5DF1DAA83B3007BC7C3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		BDA3D5E21DAA83BF007BC7C3 /* MainViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewCell.h; sourceTree = "<group>"; };
@@ -80,13 +113,8 @@
 		BDA3D5EC1DAA83CA007BC7C3 /* XYXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYXViewController.m; sourceTree = "<group>"; };
 		BDA3D5EF1DAA83D3007BC7C3 /* LotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryViewController.h; sourceTree = "<group>"; };
 		BDA3D5F01DAA83D3007BC7C3 /* LotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryViewController.m; sourceTree = "<group>"; };
-		BDA3D5F71DAA83DE007BC7C3 /* ZView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZView.h; sourceTree = "<group>"; };
-		BDA3D5F81DAA83DE007BC7C3 /* ZView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZView.m; sourceTree = "<group>"; };
 		BDA3D5FD1DAA8434007BC7C3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDA3D5FE1DAA8434007BC7C3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BDA3D6021DAA8A34007BC7C3 /* TouchStarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchStarVC.h; sourceTree = "<group>"; };
-		BDA3D6031DAA8A34007BC7C3 /* TouchStarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchStarVC.m; sourceTree = "<group>"; };
-		BDA3D6041DAA8A34007BC7C3 /* TouchStarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TouchStarVC.xib; sourceTree = "<group>"; };
 		C2D3666D772FE3778EF4F9E6 /* libPods-CCAnimation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCAnimation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5B5D0D1464AD3E8E92CD74B /* libPods-CCAnimationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CCAnimationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5DDF49B5E0DD569E6F978E0 /* Pods-CCAnimationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCAnimationUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CCAnimationUITests/Pods-CCAnimationUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -170,16 +198,19 @@
 			children = (
 				BDA3D5FC1DAA8434007BC7C3 /* AppDelegate */,
 				BDA3D5DD1DAA83B3007BC7C3 /* common */,
+				A59A72561DAC8B6C0080FBD6 /* Category */,
 				BDA3D5E11DAA83BF007BC7C3 /* 主页 */,
 				BDA3D5EA1DAA83CA007BC7C3 /* 咻一咻 */,
-				BDA3D5F21DAA83DE007BC7C3 /* 点赞 */,
 				BDA3D5EE1DAA83D3007BC7C3 /* 摇奖 */,
+				A59A72461DAC87F70080FBD6 /* tabBar点击动画 */,
+				A511E2AC1DACE33500C6F020 /* 旋转小动画 */,
 				A5027D381CC7591400C54EDE /* Assets.xcassets */,
 				A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */,
 				A5027D3D1CC7591400C54EDE /* Info.plist */,
 				A5923BCF1DAB8FEF0019AC45 /* Resource */,
 				A5027D2C1CC7591400C54EDE /* Supporting Files */,
-				BD5116891DA35B14008E73DA /* config.h */,
+				A5E781721DACC9A70078C8F4 /* Config.h */,
+				A59A725D1DAC8D540080FBD6 /* PrefixHeader.pch */,
 			);
 			path = CCAnimation;
 			sourceTree = "<group>";
@@ -210,6 +241,33 @@
 			path = CCAnimationUITests;
 			sourceTree = "<group>";
 		};
+		A511E2AC1DACE33500C6F020 /* 旋转小动画 */ = {
+			isa = PBXGroup;
+			children = (
+				A511E2AD1DACE33500C6F020 /* FTT_RoundView */,
+				A511E2B71DACE40200C6F020 /* RotateAnimationVC.h */,
+				A511E2B81DACE40200C6F020 /* RotateAnimationVC.m */,
+				A511E2BD1DACE61800C6F020 /* BaseViewController.h */,
+				A511E2BE1DACE61800C6F020 /* BaseViewController.m */,
+				A511E2BA1DACE46900C6F020 /* BtnModel.h */,
+				A511E2BB1DACE46900C6F020 /* BtnModel.m */,
+				A511E2C01DACE79A00C6F020 /* BtnList.plist */,
+			);
+			name = "旋转小动画";
+			path = "CCAnimation/旋转小动画";
+			sourceTree = SOURCE_ROOT;
+		};
+		A511E2AD1DACE33500C6F020 /* FTT_RoundView */ = {
+			isa = PBXGroup;
+			children = (
+				A511E2AE1DACE33500C6F020 /* FTT_Roundview.h */,
+				A511E2AF1DACE33500C6F020 /* FTT_Roundview.m */,
+				A511E2B01DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.h */,
+				A511E2B11DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m */,
+			);
+			path = FTT_RoundView;
+			sourceTree = "<group>";
+		};
 		A5923BCF1DAB8FEF0019AC45 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +276,33 @@
 				A5923BD11DAB8FEF0019AC45 /* 摇奖效果图.gif */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		A59A72461DAC87F70080FBD6 /* tabBar点击动画 */ = {
+			isa = PBXGroup;
+			children = (
+				A59A72471DAC88320080FBD6 /* TabBarController.h */,
+				A59A72481DAC88320080FBD6 /* TabBarController.m */,
+				A59A724A1DAC8A850080FBD6 /* FirstViewController.h */,
+				A59A724B1DAC8A850080FBD6 /* FirstViewController.m */,
+				A59A724D1DAC8A910080FBD6 /* SecondViewController.h */,
+				A59A724E1DAC8A910080FBD6 /* SecondViewController.m */,
+				A59A72501DAC8AA40080FBD6 /* ThreeViewController.h */,
+				A59A72511DAC8AA40080FBD6 /* ThreeViewController.m */,
+				A59A72531DAC8AAE0080FBD6 /* FourViewController.h */,
+				A59A72541DAC8AAE0080FBD6 /* FourViewController.m */,
+			);
+			name = "tabBar点击动画";
+			path = "CCAnimation/tabBar点击动画";
+			sourceTree = SOURCE_ROOT;
+		};
+		A59A72561DAC8B6C0080FBD6 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A5E7816F1DACC34D0078C8F4 /* UIBarButtonItem+Category.h */,
+				A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BDA3D5DD1DAA83B3007BC7C3 /* common */ = {
@@ -232,11 +317,11 @@
 		BDA3D5E11DAA83BF007BC7C3 /* 主页 */ = {
 			isa = PBXGroup;
 			children = (
+				BDA3D5E51DAA83BF007BC7C3 /* MainViewController.h */,
+				BDA3D5E61DAA83BF007BC7C3 /* MainViewController.m */,
 				BDA3D5E21DAA83BF007BC7C3 /* MainViewCell.h */,
 				BDA3D5E31DAA83BF007BC7C3 /* MainViewCell.m */,
 				BDA3D5E41DAA83BF007BC7C3 /* MainViewCell.xib */,
-				BDA3D5E51DAA83BF007BC7C3 /* MainViewController.h */,
-				BDA3D5E61DAA83BF007BC7C3 /* MainViewController.m */,
 			);
 			path = "主页";
 			sourceTree = "<group>";
@@ -257,26 +342,6 @@
 				BDA3D5F01DAA83D3007BC7C3 /* LotteryViewController.m */,
 			);
 			path = "摇奖";
-			sourceTree = "<group>";
-		};
-		BDA3D5F21DAA83DE007BC7C3 /* 点赞 */ = {
-			isa = PBXGroup;
-			children = (
-				BDA3D6021DAA8A34007BC7C3 /* TouchStarVC.h */,
-				BDA3D6031DAA8A34007BC7C3 /* TouchStarVC.m */,
-				BDA3D6041DAA8A34007BC7C3 /* TouchStarVC.xib */,
-				BDA3D5F51DAA83DE007BC7C3 /* ZView */,
-			);
-			path = "点赞";
-			sourceTree = "<group>";
-		};
-		BDA3D5F51DAA83DE007BC7C3 /* ZView */ = {
-			isa = PBXGroup;
-			children = (
-				BDA3D5F71DAA83DE007BC7C3 /* ZView.h */,
-				BDA3D5F81DAA83DE007BC7C3 /* ZView.m */,
-			);
-			path = ZView;
 			sourceTree = "<group>";
 		};
 		BDA3D5FC1DAA8434007BC7C3 /* AppDelegate */ = {
@@ -402,8 +467,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A58900B31DAB9BB000409565 /* 点赞效果图.PNG in Resources */,
-				BDA3D6061DAA8A34007BC7C3 /* TouchStarVC.xib in Resources */,
 				A5923BD21DAB8FEF0019AC45 /* 咻一咻效果图.gif in Resources */,
+				A511E2C11DACE79A00C6F020 /* BtnList.plist in Resources */,
 				A5923BD31DAB8FEF0019AC45 /* 摇奖效果图.gif in Resources */,
 				A5027D3C1CC7591400C54EDE /* LaunchScreen.storyboard in Resources */,
 				BDA3D5E81DAA83BF007BC7C3 /* MainViewCell.xib in Resources */,
@@ -555,13 +620,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59A72551DAC8AAE0080FBD6 /* FourViewController.m in Sources */,
+				A511E2BF1DACE61800C6F020 /* BaseViewController.m in Sources */,
+				A5E781711DACC34D0078C8F4 /* UIBarButtonItem+Category.m in Sources */,
+				A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */,
+				A59A724C1DAC8A850080FBD6 /* FirstViewController.m in Sources */,
+				A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */,
 				BDA3D5E71DAA83BF007BC7C3 /* MainViewCell.m in Sources */,
-				BDA3D6051DAA8A34007BC7C3 /* TouchStarVC.m in Sources */,
-				BDA3D5FB1DAA83DE007BC7C3 /* ZView.m in Sources */,
+				A511E2B91DACE40300C6F020 /* RotateAnimationVC.m in Sources */,
 				BDA3D5FF1DAA8434007BC7C3 /* AppDelegate.m in Sources */,
 				A5027D2E1CC7591400C54EDE /* main.m in Sources */,
+				A511E2B31DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
 				BDA3D5E91DAA83BF007BC7C3 /* MainViewController.m in Sources */,
 				BDA3D5ED1DAA83CA007BC7C3 /* XYXViewController.m in Sources */,
+				A511E2BC1DACE46900C6F020 /* BtnModel.m in Sources */,
+				A511E2B21DACE33500C6F020 /* FTT_Roundview.m in Sources */,
+				A59A72491DAC88320080FBD6 /* TabBarController.m in Sources */,
 				BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */,
 				BDA3D5F11DAA83D3007BC7C3 /* LotteryViewController.m in Sources */,
 			);
@@ -701,6 +775,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Zhang Chao (U9YF328994)";
 				DEVELOPMENT_TEAM = PU39U8DFF5;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CCAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = CCAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -717,6 +794,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CCAnimation/PrefixHeader.pch";
 				INFOPLIST_FILE = CCAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

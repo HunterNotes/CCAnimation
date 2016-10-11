@@ -29,7 +29,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.navTitle = @"摇奖";
     _size = self.view.frame.size;
     
     //背景

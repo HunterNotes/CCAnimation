@@ -1,14 +1,15 @@
 //
-//  TouchStarVC.h
+//  RotateAnimationVC.h
 //  CCAnimation
 //
-//  Created by 周清城 on 2016/10/9.
+//  Created by nbcb on 2016/10/11.
 //  Copyright © 2016年 ZQC. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "RootViewController.h"
 
-@interface TouchStarVC : RootViewController
+@interface RotateAnimationVC : RootViewController
+
 
 @end

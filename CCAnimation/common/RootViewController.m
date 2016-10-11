@@ -7,7 +7,7 @@
 //
 
 #import "RootViewController.h"
-#import "config.h"
+//#import "config.h"
 
 @interface RootViewController ()
 

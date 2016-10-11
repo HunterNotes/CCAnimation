@@ -8,7 +8,7 @@
 
 #import "MainViewController.h"
 #import "MainViewCell.h"
-#import "TouchStarVC.h"
+#import "TabBarController.h"
 
 static NSString *identifier = @"MainViewCell";
 @interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -26,12 +26,13 @@ static NSString *identifier = @"MainViewCell";
     
     [super viewDidLoad];
     
+    self.navTitle = @"动画";
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    _titleArr = @[@"咻一咻", @"点赞", @"摇奖"];
-    _viewControllers = @[@"XYXViewController", @"TouchStarVC", @"LotteryViewController"];
+    _titleArr = @[@"咻一咻", @"摇奖", @"TabBar点击动画", @"旋转小动画"];
+    _viewControllers = @[@"XYXViewController", @"LotteryViewController", @"TabBarController", @"RotateAnimationVC"];
     
     [self registerCell];
 }
@@ -68,14 +69,20 @@ static NSString *identifier = @"MainViewCell";
     
     NSInteger section = indexPath.section;
     NSString *didSelectVCName = _viewControllers[section];
-    RootViewController *vc = nil;
-    if ([didSelectVCName isEqualToString:@"TouchStarVC"]) {
-        vc = [[TouchStarVC alloc] initWithNibName:nil bundle:nil];
+    
+    if ([didSelectVCName isEqualToString:@"TabBarController"]) {
+        TabBarController *vc = [[NSClassFromString(didSelectVCName) alloc] init];
+        [UIView transitionFromView:self.view toView:vc.view duration:0.1 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
+        }];
+        [self.navigationController pushViewController:vc animated:YES];
     }
     else {
-        vc = [[NSClassFromString(didSelectVCName) alloc] init];
+        RootViewController *vc = [[NSClassFromString(didSelectVCName) alloc] init];
+        vc.navTitle = _titleArr[section];
+        [UIView transitionFromView:self.view toView:vc.view duration:0.1 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
+        }];
+        [self.navigationController pushViewController:vc animated:YES];
     }
-    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
