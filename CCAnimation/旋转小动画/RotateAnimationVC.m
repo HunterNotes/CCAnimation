@@ -10,7 +10,9 @@
 #import "BaseViewController.h"
 
 @interface RotateAnimationVC ()
-
+{
+    BOOL _isSelected;
+}
 @property (nonatomic , strong) UIButton *button;
 @property (nonatomic , strong) FTT_Roundview *romate;
 @property (nonatomic , strong) NSMutableArray *datasource;
@@ -27,6 +29,8 @@
     romate.center = self.view.center;
     self.romate = romate;
     _datasource = [NSMutableArray new];
+//    romate.BtnBackgroudColor = [UIColor cyanColor];
+//    romate.backgroundColor = [UIColor redColor];
     NSString *filePath = [[NSBundle mainBundle]pathForResource:@"BtnList.plist" ofType:nil];
     NSArray *contentArray = [NSArray arrayWithContentsOfFile:filePath];
     for (NSDictionary *item  in contentArray) {
@@ -51,7 +55,11 @@
     
     _button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
     _button.center = self.view.center;
-    _button.backgroundColor = [UIColor yellowColor];
+    _button.adjustsImageWhenHighlighted = NO;
+    [_button setImage:[UIImage imageNamed:@"button"] forState:UIControlStateNormal];
+    [_button setImage:[UIImage imageNamed:@"button_sel"] forState:UIControlStateSelected];
+    _isSelected = NO;
+    _button.selected = _isSelected;
     _button.layer.cornerRadius = 50;
     [_button addTarget:self action:@selector(showItems:) forControlEvents:UIControlEventTouchUpInside];
     
@@ -60,14 +68,17 @@
 
 - (void)showItems:(UIButton *)sender {
     
+    _isSelected = !_isSelected;
+    _button.selected = _isSelected;
     [_romate show];
 }
 
 // 跳转界面
 - (void)pushView:(NSInteger)num name:(NSString *)name {
+    
     NSMutableArray *classArray = [NSMutableArray new];
     for (BtnModel *model  in _datasource) {
-        [classArray addObject:model.name];
+        [classArray addObject:model.className];
     }
     Class class = NSClassFromString(classArray[num]);
     BaseViewController *vc = [[class alloc]init];

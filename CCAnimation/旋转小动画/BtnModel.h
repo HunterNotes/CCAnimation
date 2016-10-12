@@ -10,7 +10,7 @@
 
 @interface BtnModel : NSObject
 
-@property (nonatomic , copy) NSString *name;
+@property (nonatomic , copy) NSString *className;
 
 @property (nonatomic , copy) NSString *image1 ;
 

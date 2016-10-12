@@ -3,8 +3,8 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>name</key>
-		<string>Demo</string>
+		<key>className</key>
+		<string>BaseViewController</string>
 		<key>image1</key>
 		<string>business_center_2</string>
 		<key>image2</key>
@@ -13,8 +13,8 @@
 		<string>神奇</string>
 	</dict>
 	<dict>
-		<key>name</key>
-		<string>Demo</string>
+		<key>className</key>
+		<string>BaseViewController</string>
 		<key>image1</key>
 		<string>home_2</string>
 		<key>image2</key>
@@ -23,8 +23,8 @@
 		<string>弹性</string>
 	</dict>
 	<dict>
-		<key>name</key>
-		<string>Demo</string>
+		<key>className</key>
+		<string>BaseViewController</string>
 		<key>image1</key>
 		<string>message_2</string>
 		<key>image2</key>
@@ -33,8 +33,8 @@
 		<string>翻页</string>
 	</dict>
 	<dict>
-		<key>name</key>
-		<string>Demo</string>
+		<key>className</key>
+		<string>BaseViewController</string>
 		<key>image1</key>
 		<string>task_management_2</string>
 		<key>image2</key>
@@ -43,8 +43,8 @@
 		<string>扩散</string>
 	</dict>
 	<dict>
-		<key>name</key>
-		<string>Demo</string>
+		<key>className</key>
+		<string>BaseViewController</string>
 		<key>image1</key>
 		<string>btn_increase</string>
 		<key>image2</key>

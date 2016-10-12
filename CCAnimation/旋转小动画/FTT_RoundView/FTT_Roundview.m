@@ -51,13 +51,13 @@ static FTT_Roundview *shareInstance;
     CGFloat y = self.Witch  / 2 ;
     _nameArray = titileArray;
     
-    for (int i = 0 ; i < titileArray.count; i++) {
+    for (int i = 0; i < titileArray.count; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(0, 0, BtnWitch, BtnWitch);
         btn.layer.masksToBounds = msak;
         btn.layer.cornerRadius = radius;
         CGFloat  num = (i + 3 - 0.1) * 1.0;
-        btn.center = CGPointMake(x + r * cos(corner * num), y + r *sin(corner * num));
+        btn.center = CGPointMake(x + r * cos(corner * num), y + r * sin(corner * num));
         btn.backgroundColor = self.BtnBackgroudColor;
         self.BtnWitch = BtnWitch;
         if (type == FTT_RoundviewTypeCustom) {
@@ -80,10 +80,9 @@ static FTT_Roundview *shareInstance;
             [btn setTitleColor:titleColor forState:UIControlStateNormal];
         }
         btn.tag = i;
-        [btn addTarget:self action:@selector(btn:) forControlEvents:UIControlEventTouchUpInside];
+        [btn addTarget:self action:@selector(handleAction:) forControlEvents:UIControlEventTouchDown];
         [self addSubview:btn];
         [_btnArray addObject:btn];
-        
     }
 }
 /**
@@ -100,7 +99,7 @@ static FTT_Roundview *shareInstance;
             for (int i = 0 ; i < _btnArray.count ; i ++) {
                 UIButton *btn = _btnArray[i];
                 CGFloat  num = (i + 3 - 0.1) * 1.0;
-                btn.center = CGPointMake(x + r * cos(corner * num), y + r *sin(corner * num));
+                btn.center = CGPointMake(x + r * cos(corner * num), y + r * sin(corner * num));
                 btn.alpha = 1 ;
             }
         }];
@@ -122,7 +121,7 @@ static FTT_Roundview *shareInstance;
  *
  *  @param btn
  */
-- (void)btn: (UIButton *)btn {
+- (void)handleAction:(UIButton *)btn {
     
     _isShow = YES ;
     NSInteger num1 = btn.tag;

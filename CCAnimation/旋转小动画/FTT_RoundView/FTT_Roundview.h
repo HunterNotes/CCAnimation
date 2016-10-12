@@ -17,7 +17,7 @@ typedef void(^JumpBlock)(NSInteger num , NSString *name);
 
 @interface FTT_Roundview : UIView
 // 点击按钮触发事件
-@property (nonatomic , copy) JumpBlock back ;
+@property (nonatomic , copy) JumpBlock back;
 // 按钮风格
 @property (nonatomic , assign) FTT_RoundviewType Type;
 // 按钮的宽度
@@ -27,7 +27,7 @@ typedef void(^JumpBlock)(NSInteger num , NSString *name);
 // 按钮的背景颜色
 @property (nonatomic , strong) UIColor *BtnBackgroudColor ;
 // 展示
-- (void)show ;
+- (void)show;
 /**
  *  创建按钮
  *
