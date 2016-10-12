@@ -9,6 +9,7 @@
 #import "MainViewController.h"
 #import "MainViewCell.h"
 #import "TabBarController.h"
+#import "CheckViewController.h"
 
 static NSString *identifier = @"MainViewCell";
 @interface MainViewController () <UITableViewDataSource, UITableViewDelegate>
@@ -31,8 +32,8 @@ static NSString *identifier = @"MainViewCell";
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    _titleArr = @[@"咻一咻", @"摇奖", @"TabBar点击动画", @"旋转小动画"];
-    _viewControllers = @[@"XYXViewController", @"LotteryViewController", @"TabBarController", @"RotateAnimationVC"];
+    _titleArr = @[@"咻一咻", @"摇奖", @"TabBar点击动画", @"旋转小动画", @"签到"];
+    _viewControllers = @[@"XYXViewController", @"LotteryViewController", @"TabBarController", @"RotateAnimationVC", @"CheckViewController"];
     
     [self registerCell];
 }
@@ -77,7 +78,13 @@ static NSString *identifier = @"MainViewCell";
         [self.navigationController pushViewController:vc animated:YES];
     }
     else {
-        RootViewController *vc = [[NSClassFromString(didSelectVCName) alloc] init];
+        RootViewController *vc = nil;
+        if ([didSelectVCName isEqualToString:@"CheckViewController"]) {
+            vc = [[CheckViewController alloc] initWithNibName:nil bundle:nil];
+        }
+        else {
+            vc = [[NSClassFromString(didSelectVCName) alloc] init];
+        }
         vc.navTitle = _titleArr[section];
         [UIView transitionFromView:self.view toView:vc.view duration:0.1 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
         }];

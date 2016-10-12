@@ -29,6 +29,10 @@
 		A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A724E1DAC8A910080FBD6 /* SecondViewController.m */; };
 		A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72511DAC8AA40080FBD6 /* ThreeViewController.m */; };
 		A59A72551DAC8AAE0080FBD6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72541DAC8AAE0080FBD6 /* FourViewController.m */; };
+		A5A4639A1DAE227F008AA93B /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A463981DAE227F008AA93B /* CheckViewController.m */; };
+		A5A4639B1DAE227F008AA93B /* CheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A463991DAE227F008AA93B /* CheckViewController.xib */; };
+		A5A4639E1DAE2495008AA93B /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4639D1DAE2495008AA93B /* CommonTool.m */; };
+		A5A463A01DAE27D7008AA93B /* 签到金币音效.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A5A4639F1DAE27D7008AA93B /* 签到金币音效.mp3 */; };
 		A5E781711DACC34D0078C8F4 /* UIBarButtonItem+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */; };
 		BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5DF1DAA83B3007BC7C3 /* RootViewController.m */; };
 		BDA3D5E71DAA83BF007BC7C3 /* MainViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA3D5E31DAA83BF007BC7C3 /* MainViewCell.m */; };
@@ -97,6 +101,12 @@
 		A59A72531DAC8AAE0080FBD6 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		A59A72541DAC8AAE0080FBD6 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		A59A725D1DAC8D540080FBD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5A463971DAE227F008AA93B /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		A5A463981DAE227F008AA93B /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		A5A463991DAE227F008AA93B /* CheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckViewController.xib; sourceTree = "<group>"; };
+		A5A4639C1DAE2495008AA93B /* CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		A5A4639D1DAE2495008AA93B /* CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		A5A4639F1DAE27D7008AA93B /* 签到金币音效.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "签到金币音效.mp3"; sourceTree = "<group>"; };
 		A5E7816F1DACC34D0078C8F4 /* UIBarButtonItem+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Category.h"; sourceTree = "<group>"; };
 		A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Category.m"; sourceTree = "<group>"; };
 		A5E781721DACC9A70078C8F4 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
@@ -204,6 +214,7 @@
 				BDA3D5EE1DAA83D3007BC7C3 /* 摇奖 */,
 				A59A72461DAC87F70080FBD6 /* tabBar点击动画 */,
 				A511E2AC1DACE33500C6F020 /* 旋转小动画 */,
+				A5A463961DAE2267008AA93B /* 签到 */,
 				A5027D381CC7591400C54EDE /* Assets.xcassets */,
 				A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */,
 				A5027D3D1CC7591400C54EDE /* Info.plist */,
@@ -303,6 +314,19 @@
 				A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A5A463961DAE2267008AA93B /* 签到 */ = {
+			isa = PBXGroup;
+			children = (
+				A5A463971DAE227F008AA93B /* CheckViewController.h */,
+				A5A463981DAE227F008AA93B /* CheckViewController.m */,
+				A5A463991DAE227F008AA93B /* CheckViewController.xib */,
+				A5A4639C1DAE2495008AA93B /* CommonTool.h */,
+				A5A4639D1DAE2495008AA93B /* CommonTool.m */,
+				A5A4639F1DAE27D7008AA93B /* 签到金币音效.mp3 */,
+			);
+			path = "签到";
 			sourceTree = "<group>";
 		};
 		BDA3D5DD1DAA83B3007BC7C3 /* common */ = {
@@ -471,7 +495,9 @@
 				A511E2C11DACE79A00C6F020 /* BtnList.plist in Resources */,
 				A5923BD31DAB8FEF0019AC45 /* 摇奖效果图.gif in Resources */,
 				A5027D3C1CC7591400C54EDE /* LaunchScreen.storyboard in Resources */,
+				A5A4639B1DAE227F008AA93B /* CheckViewController.xib in Resources */,
 				BDA3D5E81DAA83BF007BC7C3 /* MainViewCell.xib in Resources */,
+				A5A463A01DAE27D7008AA93B /* 签到金币音效.mp3 in Resources */,
 				A5027D391CC7591400C54EDE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -626,6 +652,7 @@
 				A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */,
 				A59A724C1DAC8A850080FBD6 /* FirstViewController.m in Sources */,
 				A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */,
+				A5A4639E1DAE2495008AA93B /* CommonTool.m in Sources */,
 				BDA3D5E71DAA83BF007BC7C3 /* MainViewCell.m in Sources */,
 				A511E2B91DACE40300C6F020 /* RotateAnimationVC.m in Sources */,
 				BDA3D5FF1DAA8434007BC7C3 /* AppDelegate.m in Sources */,
@@ -634,6 +661,7 @@
 				BDA3D5E91DAA83BF007BC7C3 /* MainViewController.m in Sources */,
 				BDA3D5ED1DAA83CA007BC7C3 /* XYXViewController.m in Sources */,
 				A511E2BC1DACE46900C6F020 /* BtnModel.m in Sources */,
+				A5A4639A1DAE227F008AA93B /* CheckViewController.m in Sources */,
 				A511E2B21DACE33500C6F020 /* FTT_Roundview.m in Sources */,
 				A59A72491DAC88320080FBD6 /* TabBarController.m in Sources */,
 				BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */,
