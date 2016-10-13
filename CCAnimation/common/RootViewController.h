@@ -12,5 +12,9 @@
 
 @property (nonatomic, copy, nullable) NSString *navTitle;
 @property (nonatomic, strong, nullable) UITableView *tableView;
+@property(nonatomic, strong, nullable) UIImageView *backGroundImageview;
+
+//添加毛玻璃效果
+- (void)addEffectView;
 
 @end

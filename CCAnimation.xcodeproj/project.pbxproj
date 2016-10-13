@@ -29,6 +29,16 @@
 		A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A724E1DAC8A910080FBD6 /* SecondViewController.m */; };
 		A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72511DAC8AA40080FBD6 /* ThreeViewController.m */; };
 		A59A72551DAC8AAE0080FBD6 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A59A72541DAC8AAE0080FBD6 /* FourViewController.m */; };
+		A5A342BB1DAF252C0075DE60 /* ShitGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342BA1DAF252C0075DE60 /* ShitGridViewController.m */; };
+		A5A342BF1DAF26000075DE60 /* GridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342BE1DAF26000075DE60 /* GridView.m */; };
+		A5A342C21DAF268D0075DE60 /* GridButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342C11DAF268D0075DE60 /* GridButton.m */; };
+		A5A342CE1DAF2DC30075DE60 /* LxButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342C51DAF2DC30075DE60 /* LxButton.m */; };
+		A5A342CF1DAF2DC30075DE60 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342C71DAF2DC30075DE60 /* UIColor+Expanded.m */; };
+		A5A342D01DAF2DC30075DE60 /* UILabel+LXLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342C91DAF2DC30075DE60 /* UILabel+LXLabel.m */; };
+		A5A342D11DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342CB1DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		A5A342D21DAF2DC30075DE60 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342CD1DAF2DC30075DE60 /* UIView+Frame.m */; };
+		A5A342D61DAF5F0F0075DE60 /* ChickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342D51DAF5F0F0075DE60 /* ChickViewController.m */; };
+		A5A342D91DAF60380075DE60 /* UINavigationController+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A342D81DAF60380075DE60 /* UINavigationController+Category.m */; };
 		A5A4639A1DAE227F008AA93B /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A463981DAE227F008AA93B /* CheckViewController.m */; };
 		A5A4639B1DAE227F008AA93B /* CheckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5A463991DAE227F008AA93B /* CheckViewController.xib */; };
 		A5A4639E1DAE2495008AA93B /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A4639D1DAE2495008AA93B /* CommonTool.m */; };
@@ -101,6 +111,26 @@
 		A59A72531DAC8AAE0080FBD6 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		A59A72541DAC8AAE0080FBD6 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		A59A725D1DAC8D540080FBD6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A5A342B91DAF252C0075DE60 /* ShitGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShitGridViewController.h; sourceTree = "<group>"; };
+		A5A342BA1DAF252C0075DE60 /* ShitGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShitGridViewController.m; sourceTree = "<group>"; };
+		A5A342BD1DAF26000075DE60 /* GridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridView.h; sourceTree = "<group>"; };
+		A5A342BE1DAF26000075DE60 /* GridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridView.m; sourceTree = "<group>"; };
+		A5A342C01DAF268D0075DE60 /* GridButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridButton.h; sourceTree = "<group>"; };
+		A5A342C11DAF268D0075DE60 /* GridButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridButton.m; sourceTree = "<group>"; };
+		A5A342C41DAF2DC30075DE60 /* LxButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxButton.h; sourceTree = "<group>"; };
+		A5A342C51DAF2DC30075DE60 /* LxButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxButton.m; sourceTree = "<group>"; };
+		A5A342C61DAF2DC30075DE60 /* UIColor+Expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		A5A342C71DAF2DC30075DE60 /* UIColor+Expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		A5A342C81DAF2DC30075DE60 /* UILabel+LXLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LXLabel.h"; sourceTree = "<group>"; };
+		A5A342C91DAF2DC30075DE60 /* UILabel+LXLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LXLabel.m"; sourceTree = "<group>"; };
+		A5A342CA1DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		A5A342CB1DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		A5A342CC1DAF2DC30075DE60 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A5A342CD1DAF2DC30075DE60 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A5A342D41DAF5F0F0075DE60 /* ChickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickViewController.h; sourceTree = "<group>"; };
+		A5A342D51DAF5F0F0075DE60 /* ChickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickViewController.m; sourceTree = "<group>"; };
+		A5A342D71DAF60380075DE60 /* UINavigationController+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Category.h"; sourceTree = "<group>"; };
+		A5A342D81DAF60380075DE60 /* UINavigationController+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Category.m"; sourceTree = "<group>"; };
 		A5A463971DAE227F008AA93B /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
 		A5A463981DAE227F008AA93B /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
 		A5A463991DAE227F008AA93B /* CheckViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckViewController.xib; sourceTree = "<group>"; };
@@ -215,6 +245,7 @@
 				A59A72461DAC87F70080FBD6 /* tabBar点击动画 */,
 				A511E2AC1DACE33500C6F020 /* 旋转小动画 */,
 				A5A463961DAE2267008AA93B /* 签到 */,
+				A5A342B81DAF24FC0075DE60 /* 移动格子 */,
 				A5027D381CC7591400C54EDE /* Assets.xcassets */,
 				A5027D3A1CC7591400C54EDE /* LaunchScreen.storyboard */,
 				A5027D3D1CC7591400C54EDE /* Info.plist */,
@@ -312,8 +343,52 @@
 			children = (
 				A5E7816F1DACC34D0078C8F4 /* UIBarButtonItem+Category.h */,
 				A5E781701DACC34D0078C8F4 /* UIBarButtonItem+Category.m */,
+				A5A342D71DAF60380075DE60 /* UINavigationController+Category.h */,
+				A5A342D81DAF60380075DE60 /* UINavigationController+Category.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A5A342B81DAF24FC0075DE60 /* 移动格子 */ = {
+			isa = PBXGroup;
+			children = (
+				A5A342C31DAF2DC30075DE60 /* category */,
+				A5A342BC1DAF26000075DE60 /* GridView */,
+				A5A342B91DAF252C0075DE60 /* ShitGridViewController.h */,
+				A5A342BA1DAF252C0075DE60 /* ShitGridViewController.m */,
+				A5A342D41DAF5F0F0075DE60 /* ChickViewController.h */,
+				A5A342D51DAF5F0F0075DE60 /* ChickViewController.m */,
+			);
+			name = "移动格子";
+			path = "CCAnimation/移动格子";
+			sourceTree = SOURCE_ROOT;
+		};
+		A5A342BC1DAF26000075DE60 /* GridView */ = {
+			isa = PBXGroup;
+			children = (
+				A5A342BD1DAF26000075DE60 /* GridView.h */,
+				A5A342BE1DAF26000075DE60 /* GridView.m */,
+				A5A342C01DAF268D0075DE60 /* GridButton.h */,
+				A5A342C11DAF268D0075DE60 /* GridButton.m */,
+			);
+			path = GridView;
+			sourceTree = "<group>";
+		};
+		A5A342C31DAF2DC30075DE60 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				A5A342C41DAF2DC30075DE60 /* LxButton.h */,
+				A5A342C51DAF2DC30075DE60 /* LxButton.m */,
+				A5A342C61DAF2DC30075DE60 /* UIColor+Expanded.h */,
+				A5A342C71DAF2DC30075DE60 /* UIColor+Expanded.m */,
+				A5A342C81DAF2DC30075DE60 /* UILabel+LXLabel.h */,
+				A5A342C91DAF2DC30075DE60 /* UILabel+LXLabel.m */,
+				A5A342CA1DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.h */,
+				A5A342CB1DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.m */,
+				A5A342CC1DAF2DC30075DE60 /* UIView+Frame.h */,
+				A5A342CD1DAF2DC30075DE60 /* UIView+Frame.m */,
+			);
+			path = category;
 			sourceTree = "<group>";
 		};
 		A5A463961DAE2267008AA93B /* 签到 */ = {
@@ -649,7 +724,10 @@
 				A59A72551DAC8AAE0080FBD6 /* FourViewController.m in Sources */,
 				A511E2BF1DACE61800C6F020 /* BaseViewController.m in Sources */,
 				A5E781711DACC34D0078C8F4 /* UIBarButtonItem+Category.m in Sources */,
+				A5A342D11DAF2DC30075DE60 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				A59A724F1DAC8A910080FBD6 /* SecondViewController.m in Sources */,
+				A5A342D91DAF60380075DE60 /* UINavigationController+Category.m in Sources */,
+				A5A342CF1DAF2DC30075DE60 /* UIColor+Expanded.m in Sources */,
 				A59A724C1DAC8A850080FBD6 /* FirstViewController.m in Sources */,
 				A59A72521DAC8AA40080FBD6 /* ThreeViewController.m in Sources */,
 				A5A4639E1DAE2495008AA93B /* CommonTool.m in Sources */,
@@ -659,10 +737,17 @@
 				A5027D2E1CC7591400C54EDE /* main.m in Sources */,
 				A511E2B31DACE33500C6F020 /* KTOneFingerRotationGestureRecognizer.m in Sources */,
 				BDA3D5E91DAA83BF007BC7C3 /* MainViewController.m in Sources */,
+				A5A342CE1DAF2DC30075DE60 /* LxButton.m in Sources */,
 				BDA3D5ED1DAA83CA007BC7C3 /* XYXViewController.m in Sources */,
 				A511E2BC1DACE46900C6F020 /* BtnModel.m in Sources */,
+				A5A342BB1DAF252C0075DE60 /* ShitGridViewController.m in Sources */,
+				A5A342C21DAF268D0075DE60 /* GridButton.m in Sources */,
+				A5A342BF1DAF26000075DE60 /* GridView.m in Sources */,
 				A5A4639A1DAE227F008AA93B /* CheckViewController.m in Sources */,
+				A5A342D01DAF2DC30075DE60 /* UILabel+LXLabel.m in Sources */,
 				A511E2B21DACE33500C6F020 /* FTT_Roundview.m in Sources */,
+				A5A342D21DAF2DC30075DE60 /* UIView+Frame.m in Sources */,
+				A5A342D61DAF5F0F0075DE60 /* ChickViewController.m in Sources */,
 				A59A72491DAC88320080FBD6 /* TabBarController.m in Sources */,
 				BDA3D5E01DAA83B3007BC7C3 /* RootViewController.m in Sources */,
 				BDA3D5F11DAA83D3007BC7C3 /* LotteryViewController.m in Sources */,

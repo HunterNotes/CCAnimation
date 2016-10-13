@@ -20,6 +20,9 @@
 @implementation XYXViewController
 
 - (void)viewDidLoad {
+    
+    [self addEffectView];
+
     [super viewDidLoad];
 }
 

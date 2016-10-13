@@ -13,5 +13,9 @@
 #import "FTT_Roundview.h"
 #import "BtnModel.h"
 #import "Config.h"
+#import "UIView+Frame.h"
+#import "UIColor+Expanded.h"
+#import "LxButton.h"
+#import "UINavigationController+Category.h"
 
 #endif /* PrefixHeader_pch */

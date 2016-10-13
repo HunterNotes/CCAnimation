@@ -83,7 +83,7 @@
     Class class = NSClassFromString(classArray[num]);
     BaseViewController *vc = [[class alloc]init];
     vc.title = name;
-    [self.navigationController pushViewController:vc animated:YES];
+    [self.navigationController pushViewController:vc transitionFromView:self.view animationType:UIViewAnimationOptionTransitionCrossDissolve];
     
 }
 

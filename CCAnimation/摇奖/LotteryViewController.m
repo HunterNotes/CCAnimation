@@ -27,6 +27,9 @@
 @implementation LotteryViewController
 
 - (void)viewDidLoad {
+    
+    [self addEffectView];
+
     [super viewDidLoad];
     
     _size = self.view.frame.size;

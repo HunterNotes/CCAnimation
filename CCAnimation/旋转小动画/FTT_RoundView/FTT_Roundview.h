@@ -16,6 +16,7 @@ typedef NS_ENUM(NSInteger , FTT_RoundviewType) {
 typedef void(^JumpBlock)(NSInteger num , NSString *name);
 
 @interface FTT_Roundview : UIView
+
 // 点击按钮触发事件
 @property (nonatomic , copy) JumpBlock back;
 // 按钮风格
@@ -25,7 +26,7 @@ typedef void(^JumpBlock)(NSInteger num , NSString *name);
 // 视图的宽度
 @property (nonatomic , assign) CGFloat Witch;
 // 按钮的背景颜色
-@property (nonatomic , strong) UIColor *BtnBackgroudColor ;
+@property (nonatomic , strong) UIColor *BtnBackgroudColor;
 // 展示
 - (void)show;
 /**

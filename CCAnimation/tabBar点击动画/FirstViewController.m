@@ -15,10 +15,11 @@
 @implementation FirstViewController
 
 - (void)viewDidLoad {
+    
+    [self addEffectView];
     [super viewDidLoad];
     
     self.navTitle = @"TabBar点击动画";
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {

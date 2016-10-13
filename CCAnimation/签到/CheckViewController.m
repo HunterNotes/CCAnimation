@@ -14,8 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *footLabel;
 @property (weak, nonatomic) IBOutlet UILabel *descriptionLabel;
 @property (weak, nonatomic) IBOutlet UIButton *signBtn;
-@property (assign,nonatomic) SystemSoundID soundID;
-@property (nonatomic, strong)CAEmitterLayer *emitterLayer;//粒子动画
+@property (assign, nonatomic) SystemSoundID soundID;
+@property (nonatomic, strong) CAEmitterLayer *emitterLayer;//粒子动画
 
 @end
 
@@ -23,6 +23,7 @@
 
 - (void)viewDidLoad {
     
+
     [super viewDidLoad];
     self.descriptionLabel.text = @"点击这里签到\n赚取金币";
     self.signCount = 0;

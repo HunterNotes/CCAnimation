@@ -19,7 +19,7 @@
     [super viewDidLoad];
     self.navTitle = @"TabBar点击动画";
 
-    // Do any additional setup after loading the view.
+    [self addEffectView];
 }
 
 - (void)didReceiveMemoryWarning {

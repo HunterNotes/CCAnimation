@@ -25,6 +25,7 @@ static NSString *identifier = @"MainViewCell";
 
 - (void)viewDidLoad {
     
+    [self addEffectView];
     [super viewDidLoad];
     
     self.navTitle = @"动画";
@@ -32,8 +33,8 @@ static NSString *identifier = @"MainViewCell";
     self.tableView.delegate = self;
     [self.view addSubview:self.tableView];
     
-    _titleArr = @[@"咻一咻", @"摇奖", @"TabBar点击动画", @"旋转小动画", @"签到"];
-    _viewControllers = @[@"XYXViewController", @"LotteryViewController", @"TabBarController", @"RotateAnimationVC", @"CheckViewController"];
+    _titleArr = @[@"咻一咻", @"摇奖", @"TabBar点击动画", @"旋转小动画", @"签到", @"移动格子"];
+    _viewControllers = @[@"XYXViewController", @"LotteryViewController", @"TabBarController", @"RotateAnimationVC", @"CheckViewController", @"ChickViewController"];
     
     [self registerCell];
 }
@@ -75,7 +76,7 @@ static NSString *identifier = @"MainViewCell";
         TabBarController *vc = [[NSClassFromString(didSelectVCName) alloc] init];
         [UIView transitionFromView:self.view toView:vc.view duration:0.1 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
         }];
-        [self.navigationController pushViewController:vc animated:YES];
+        [self.navigationController pushViewController:vc transitionFromView:self.view animationType:UIViewAnimationOptionTransitionCrossDissolve];
     }
     else {
         RootViewController *vc = nil;
@@ -86,9 +87,7 @@ static NSString *identifier = @"MainViewCell";
             vc = [[NSClassFromString(didSelectVCName) alloc] init];
         }
         vc.navTitle = _titleArr[section];
-        [UIView transitionFromView:self.view toView:vc.view duration:0.1 options:UIViewAnimationOptionTransitionCrossDissolve completion:^(BOOL finished) {
-        }];
-        [self.navigationController pushViewController:vc animated:YES];
+        [self.navigationController pushViewController:vc transitionFromView:self.view animationType:UIViewAnimationOptionTransitionCrossDissolve];
     }
 }
 
